@@ -1,0 +1,118 @@
+body {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #8a8988;
+    border-radius: 0;
+    border: 0;
+    }
+#menu-categories-title{
+    font-size: large;
+}
+.navbar-brand {
+    padding-top: 25px; 
+}
+.navbar-brand h1 { /* Restaurant name */
+    /* font-family: 'Lora', serif; */
+    color: #000;
+    font-size: 1.5em;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    position: relative;
+    align-items: flex-end;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+#nav-list {
+    margin-top: 10px;
+    /* position: relative; */
+}
+#nav-list a {
+    color: #070707;
+    text-align: center;
+    border: 1px solid #000;
+    background: white; 
+    /* display:block; */
+    /* overflow: auto; */
+    /* position:  */
+    z-index:1;
+    
+}
+#nav-list a:hover {
+    background: rgb(241, 226, 176);
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+/* END HEADER */
+h2 {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+div.container {
+    /* background-color: transparent; */
+    /* border-bottom: 3px solid rgb(1, 12, 1); */
+    position: absolute;
+    display:block;
+    text-align: center;
+    width: 100%;
+    top: 10px;
+    /* justify-content: right; */
+    /* right: 100px; */
+    overflow: auto;
+    /* margin-left: 70%; */
+    /* padding: 10px; */
+    font-weight: bold;
+    font-size: larger;
+    top: auto;
+
+}
+
+/* MENU CATEGORIES PAGE */
+.category-tile { 
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    /* width: 200px;
+    height: 200px; */
+    margin: 0 auto 15px;
+    position: relative;
+    background-color: lightcoral;
+
+
+}
+
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+    position: relative;
+    /* display: flex; */
+    
+}
+
+/* .box-margin {
+    margin: %;
+    width: 100%;
+    background-color: lightcoral;
+} */
